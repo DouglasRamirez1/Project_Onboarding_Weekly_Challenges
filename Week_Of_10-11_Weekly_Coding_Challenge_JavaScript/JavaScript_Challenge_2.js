@@ -45,7 +45,7 @@ function vendingMachine(products, money, selection){
     }
 
     if(money < products[selection].productPrice){ //Checks if the money inserted is less than the price of the product selected.
-        return "Not enough money for this product";
+        return "Not enough money for this product.";
     }
 
     else{
