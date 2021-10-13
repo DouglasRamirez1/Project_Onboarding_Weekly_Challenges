@@ -1,4 +1,4 @@
-# JavaScript challenges for the week of October 11
+# JavaScript Challenges (Week of October 11)
 
 ##Challenge 1: Write a function that takes a string as an argument and returns a list of all the words inflected by "-ing".
 * Your function should also exclude all the mono-syllabic words ending in "-ing"
