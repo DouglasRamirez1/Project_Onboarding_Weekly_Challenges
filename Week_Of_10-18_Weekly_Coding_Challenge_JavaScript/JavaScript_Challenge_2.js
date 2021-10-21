@@ -18,9 +18,6 @@ function doesTriangleFit(triangle1 = [], triangle2 = []){
             //Returns the boolean result of whether the first triangle can fit in the second triangle or not.
             for(let i = 0; i < 3; i++){
                 if((triangle1[i%3] <= triangle2[0]) && (triangle1[(i+1)%3] <= triangle2[1]) && (triangle1[(i+2)%3] <= triangle2[2])){
-                    console.log(i%3);
-                    console.log((i+1)%3);
-                    console.log((i+2)%3);
                     return true;
                 }
             }
